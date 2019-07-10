@@ -1,0 +1,9 @@
+plugins {
+    id 'kotlin-multiplatform'
+}
+
+kotlin {
+    targets {
+        iosX64("iosX64"){}
+    }
+}
