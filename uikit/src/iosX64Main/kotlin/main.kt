@@ -71,17 +71,17 @@ class ViewController : UIViewController {
         }
         inProjectInstance.printMethods()
 
-        val inLibraryInstance = ClosureSleeveInLibrary{
-            println("In Library")
-        }
-        inLibraryInstance.printMethods()
+//        val inLibraryInstance = ClosureSleeveInLibrary{
+//            println("In Library")
+//        }
+//        inLibraryInstance.printMethods()
 
 
         //Works
         strongReference = inProjectInstance
 
         //Does not work
-        strongReference = inLibraryInstance
+//        strongReference = inLibraryInstance
 
         button.addTarget(
             strongReference,

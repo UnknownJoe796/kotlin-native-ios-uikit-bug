@@ -16,7 +16,7 @@ kotlin {
     sourceSets {
         iosX64Main {
             dependencies {
-                api project(":uikit-lib")
+//                api project(":uikit-lib")
             }
         }
     }
