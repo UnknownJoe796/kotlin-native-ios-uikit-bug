@@ -81,7 +81,7 @@ class ViewController : UIViewController {
         strongReference = inProjectInstance
 
         //Does not work
-//        strongReference = inLibraryInstance
+        strongReference = inLibraryInstance
 
         button.addTarget(
             strongReference,
